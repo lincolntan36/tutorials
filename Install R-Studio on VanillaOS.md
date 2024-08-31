@@ -26,9 +26,7 @@ This command will upgrade all the needed updates.
 Downloading RStudio Desktop .DEB:
 Before we install R, we want to download the RStudio Desktop. This download file can be downloaded at this link here:
 
-https://download1.rstudio.org/electron/jammy/amd64/rstudio-2023.06.2-561-amd64.deb
-
-This is the official RStudio Desktop Ubuntu 22 download link, more information can be found here.
+https://posit.co/download/rstudio-desktop/
 
 Installing RStudio Desktop .DEB:
 Once you have downloaded the required .DEB file for RStudio Desktop, we will need to install this into our apt (Ubuntu) container. This can be done very easily be simply, pasting the following command in your previously opened Console/Terminal window.
