@@ -1,4 +1,4 @@
-# How to install RStudio in Vanilla OS using apx (Ubuntu/apt)
+# How to install RStudio in VanillaOS using apx (Ubuntu/apt)
 
 ## Initializing an apt container:  
 `apx enter apt`  
@@ -45,6 +45,7 @@ Example: `sudo dpkg -i rstudio-2023.06.2-561-amd64.deb`
 If any issues become prominent, such as this error “error processing package rstudio (–install)” Paste the following command. Enter y or type yes when prompted.  
 
 `sudo apt --fix-broken install`  
+
 Now that we have fixed the installation simply repeat the step above, with the “sudo dpkg -i rstudio-2023.06.2-561-amd64.deb” command.  
 
 Installing R:  
